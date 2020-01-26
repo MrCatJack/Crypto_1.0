@@ -14,7 +14,7 @@ namespace Cryptologia
        public long n;      //p*q//вторая часть ключа
        public long e;      //первая часть открытого ключа
        public long d;      //первая часть секретного ключа
-        public RSA(long p, long q) //ебливый конструктор
+        public RSA(long p, long q) //конструктор
         {
             this.p = p;
             this.q = q;
